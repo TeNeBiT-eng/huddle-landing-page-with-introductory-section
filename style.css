@@ -25,6 +25,7 @@ header img{
     margin: 0 auto;
     padding-top: 3rem;
     text-align: center;
+    margin-bottom: 3rem;
     /* max-width: 375px; */
 }
 .illustration img{
@@ -40,9 +41,13 @@ header img{
 }
 .introContainer h1{
     font-family: 'Poppins', sans-serif;
-    margin-top: 2rem;
     color: white;
     width: 90%;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.introContainer p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
