@@ -75,7 +75,7 @@ button:hover{
 
 @media (min-width: 768px) {
     header{
-        width: 95%;
+        width: 90%;
     }
     .motherContainer{
         display: flex;
@@ -90,7 +90,8 @@ button:hover{
         text-align: start;
         /* width: 80%; */
     }
-    .illustration{
+    .illustration img{
+        width: 80%;
         /* margin: 2rem; */
     }
 }
