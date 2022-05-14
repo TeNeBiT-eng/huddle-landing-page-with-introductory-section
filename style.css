@@ -74,6 +74,11 @@ button:hover{
 }
 
 @media (min-width: 768px) {
+    body{
+        background-image: url(/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     header{
         width: 90%;
     }
