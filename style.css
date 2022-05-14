@@ -17,6 +17,11 @@ body{
     align-items: center;
     pa
 } */
+header{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
 header img{
     max-width: 150px;
 }
@@ -69,6 +74,9 @@ button:hover{
 }
 
 @media (min-width: 768px) {
+    header{
+        width: 80%;
+    }
     .motherContainer{
         display: flex;
         align-items: center;
@@ -81,5 +89,8 @@ button:hover{
     .introContainer h1{
         text-align: start;
         /* width: 80%; */
+    }
+    .illustration{
+        width: 90%;
     }
 }
