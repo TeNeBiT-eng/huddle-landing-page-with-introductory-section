@@ -46,8 +46,10 @@ header img{
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1rem;
+    line-height: 1.3;
 }
 .introContainer p{
     font-family: 'Open Sans', sans-serif;
     color: white;
+    line-height: 1.3;
 }
