@@ -63,12 +63,13 @@ header img{
     padding: 1rem 5rem;
     border-radius: 25px;
     border: none;
+    transition: 0.3s ease-in-out;
 }
 .introContainer .btn{
     padding-bottom: 2rem;
 }
 button:hover{
-    transition: 0.3s ease;
+    /* transition: 0.3s ease-in-out; */
     background-color: hsl(300, 69%, 71%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -98,5 +99,11 @@ button:hover{
     .illustration img{
         width: 80%;
         /* margin: 2rem; */
+    }
+    .illustration{
+        transition: 0.4s ease-in-out;
+    }
+    .illustration:hover{
+        transform: scale(0.97);
     }
 }
