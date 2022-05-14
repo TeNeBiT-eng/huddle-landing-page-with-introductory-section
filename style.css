@@ -42,7 +42,7 @@ header img{
 .introContainer h1{
     font-family: 'Poppins', sans-serif;
     color: white;
-    width: 90%;
+    /* width: 90%; */
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -50,6 +50,36 @@ header img{
 }
 .introContainer p{
     font-family: 'Open Sans', sans-serif;
-    color: white;
-    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+.introContainer button{
+    padding: 1rem 5rem;
+    border-radius: 25px;
+    border: none;
+}
+.introContainer .btn{
+    padding-bottom: 2rem;
+}
+button:hover{
+    transition: 0.3s ease;
+    background-color: hsl(300, 69%, 71%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+    .motherContainer{
+        display: flex;
+        align-items: center;
+    }
+    .introContainer{
+        width: 80%;
+        text-align: start;
+        margin: 0 auto;
+    }
+    .introContainer h1{
+        text-align: start;
+        /* width: 80%; */
+    }
 }
